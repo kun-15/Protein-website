@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>About Us</title>
+<link rel="stylesheet" type="text/css" href="styleass.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<!--- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" > -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="ass.html"><image class="logo" src="images/logo1.png"/></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="ass.html">HOME</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="nutrition.html">NUTRITION</a></li>
+				<li><a href="clothing.html">CLOTHING</a></li>
+				<li><a href="blog.html">BLOG</a></li>
+				<li><a href="contact.html">CONATCT</a></li>
+			</ul></div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+
+			</nav>
+		</nav>
+		<h1>About Us</h1>
+	</section>
+
+	<section class="about-us">
+		<div class="row">
+			<div class="about-col">
+			<h1>We Are The World's #1 Nuttition brand</h1>
+			<p>Welcome to MyProtein, a brand rooted in the belief that well-being is a journey illuminated by nourishment. Our story ignites from a fervent passion to guide individuals towards embracing balanced living through nutrition. We craft every MyProtein product as an embodiment of unwavering quality – meticulously researched, sourced with the finest ingredients, and manufactured under the highest standards. Acknowledging the unique paths we tread, our diverse product range caters to athletes seeking peak performance, professionals in pursuit of convenience, and those navigating transformative lifestyles. Transparency stands as our cornerstone – MyProtein is your partner in informed choices, laying bare our ingredients, sourcing, and benefits. We are more than a brand; we are a vibrant community of wellness enthusiasts joining forces to celebrate achievements, conquer obstacles, and embrace the joy of nurturing both body and soul. Engage with us, for MyProtein is not just about nourishment; it's about nurturing a shared expedition towards vitality, growth, and holistic health.</p>
+			<a href="" class="knw-btn purp-btn">EXPLORE PRODUCTS</a>
+			</div>
+			<div class="about-col">
+				<img src="images/abback2.jpg"/>
+			</div>
+		</div>
+	</section>
+	
+	<section class="footer">
+		<h4>About Us</h4>
+		<p>At My Protein, we're dedicated to transforming lives through optimal nutrition. Our mission is simple yet powerful: empower you to reach your fitness<br> goals by offering premium protein products that redefine excellence.</p>
+		<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-linkedin"></i>
+		</div>
+	</section>
+	
+
+
+	<script>
+		var navlinks = document.getElementById("navLinks");
+		function showMenu(){
+			navLinks.style.right="0";
+		}
+		function hideMenu(){
+			navLinks.style.right="-200px";
+		}
+	</script>
+	</body>
+
+</html>

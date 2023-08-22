@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>MyProtein-Nutrition Range</title>
+<link rel="stylesheet" type="text/css" href="styleass.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<!--- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" > -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="ass.html"><image class="logo" src="images/logo1.png"/></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="ass.html">HOME</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="nutrition.html">NUTRITION</a></li>
+				<li><a href="clothing.html">CLOTHING</a></li>
+				<li><a href="blog.html">BLOG</a></li>
+				<li><a href="contact.html">CONATCT</a></li>
+			</ul></div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+
+			</nav>
+		</nav>
+		<h1>Nutrition Range</h1>
+	</section>
+
+	<section class="products">
+		<h1>Our Products</h1>
+		<p>Designed to help you reach your goals</p>
+		<div class="row">
+			<div class="prod-col">
+				<h3>Protein</h3>
+				<p>Elevate your wellness with essential proteins:fueling cells, boosting immunity, and empowering vibrant health. Discover the benefits today</p>
+			</div>
+			<div class="prod-col">
+				<h3>Creatine</h3>
+				<p>Unlock Your Potential with Creatine Monohydrate: Enhance Energy, Power, and Performance. Elevate your workouts and achieve your fitness goals</p>
+			</div>
+			<div class="prod-col">
+				<h3>Aminos</h3>
+				<p>Revitalize with Aminos: Building Blocks for Energy, Recovery, and Strength. Elevate your vitality and wellness journey with essential amino acids</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="motivation-col mot">
+				<img src="images/whey2.jpg"/>
+				<h3>Impact Whey Protein|20g protein/serve<br>From Rs 2999</h3>
+				<!--<p>Smash your way to greatness with My Protein! Just like how I conquer the badminton court, I know the importance of powering up with the right nutrition</p>-->
+			</div>
+			<div class="motivation-col mot">
+				<img src="images/cret2.jpg"/>
+				<h3>Creatine Monohydrate|3g/serve<br>From Rs 1499</h3>
+			<!--	<p>Score Big with MyProtein! Just like how I conquer the field, I know that the right nutrition is key to achieving peak performance.</p>-->
+			</div>
+			<div class="motivation-col mot">
+				<img src="images/eaa2.jpg"/>
+				<h3>Impact EAA|9 Essential Amino Acids<br>From Rs 2299</h3>
+			<!--	<p>Unleash Your Gains with MyProtein! </p>-->
+			</div>
+		</div>
+		<div class="row">
+			<div class="motivation-col mot">
+				<img src="images/multvit.jpg"/>
+				<h3>Daily Multivitamin|7 Essential Vitamins<br>From Rs 2999</h3>
+				<!--<p>Smash your way to greatness with My Protein! Just like how I conquer the badminton court, I know the importance of powering up with the right nutrition</p>-->
+			</div>
+			<div class="motivation-col mot">
+				<img src="images/brwp.png"/>
+				<h3>Protein Brownie|5g protein/serve<br>From Rs 399</h3>
+			<!--	<p>Score Big with MyProtein! Just like how I conquer the field, I know that the right nutrition is key to achieving peak performance.</p>-->
+			</div>
+			<div class="motivation-col mot">
+				<img src="images/alpha.jpg"/>
+				<h3>Alpha Men|Advanced Formula<br>From Rs 3999</h3>
+			<!--	<p>Unleash Your Gains with MyProtein! </p>-->
+			</div>
+		</div>
+		<div class="row">
+			<div class="motivation-col mot">
+				<img src="images/pea.jpg"/>
+				<h3>Protein Peanut Butter|10g protein/serve<br>From Rs 1299</h3>
+				<!--<p>Smash your way to greatness with My Protein! Just like how I conquer the badminton court, I know the importance of powering up with the right nutrition</p>-->
+			</div>
+			<div class="motivation-col mot">
+				<img src="images/oats.jpg"/>
+				<h3>100% Instant Oats<br>From Rs 999</h3>
+			<!--	<p>Score Big with MyProtein! Just like how I conquer the field, I know that the right nutrition is key to achieving peak performance.</p>-->
+			</div>
+			<div class="motivation-col mot">
+				<img src="images/omega.jpg"/>
+				<h3>Essential Omega-3|Essential Fatty Acid<br>From Rs 1799</h3>
+			<!--	<p>Unleash Your Gains with MyProtein! </p>-->
+			</div>
+		</div>
+	</section>
+
+	
+	<section class="footer">
+		<h4>About Us</h4>
+		<p>At My Protein, we're dedicated to transforming lives through optimal nutrition. Our mission is simple yet powerful: empower you to reach your fitness<br> goals by offering premium protein products that redefine excellence.</p>
+		<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-linkedin"></i>
+		</div>
+	</section>
+	
+
+
+	<script>
+		var navlinks = document.getElementById("navLinks");
+		function showMenu(){
+			navLinks.style.right="0";
+		}
+		function hideMenu(){
+			navLinks.style.right="-200px";
+		}
+	</script>
+	</body>
+
+</html>
